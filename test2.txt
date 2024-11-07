@@ -1,0 +1,6 @@
+hello world
+Jupiter notebook
+Anaconda
+I will now begin to install Virtual environment for Kali Linux
+and then install Kali Linux
+install john the ripper using "sudo apt install john"
