@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Newspaper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>College Newspaper</h1>
+        <p>Your source for campus news</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Featured Article: Exciting Campus Events Coming Up!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel nunc eget nisl tincidunt aliquam.</p>
+            <figure>
+                <img src="campus-events.jpg" alt="Campus Events" />
+                <figcaption>Join us for exciting events!</figcaption>
+            </figure>
+            <a href="#">Read more</a>
+        </article>
+
+        <section>
+            <h3>Latest News</h3>
+            <article>
+                <h4>New Library Opening Soon</h4>
+                <p>Our new library is set to open next month. It will feature modern study spaces and extensive resources.</p>
+            </article>
+            <article>
+                <h4>Student Sports Day</h4>
+                <p>Join us for a day of fun and competition! Sports Day will be held on April 25th.</p>
+            </article>
+            <article>
+                <h4>Professor Wins Teaching Award</h4>
+                <p>Congratulations to Dr. Smith for winning the prestigious teaching award this year!</p>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Upcoming Events</h3>
+            <ul>
+                <li>April 25: Sports Day</li>
+                <li>May 10: Graduation Ceremony</li>
+                <li>June 1: Summer Fest</li>
+            </ul>
+        </aside>
+
+        <section>
+            <h3>Student Achievements</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Achievement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>First Place in State Science Fair</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>President of Student Government</td>
+                    </tr>
+                    <tr>
+                        <td>Emily Johnson</td>
+                        <td>Best in Class for Mathematics</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 College Newspaper | All rights reserved</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #3c4a5a;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 3;
+    margin-right: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+section {
+    flex: 3;
+    margin-right: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+aside {
+    flex: 1;
+    padding: 15px;
+    background: #cce5ff;
+    border-radius: 5px;
+}
+
+h2, h3, h4 {
+    color: #35424a;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #35424a;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

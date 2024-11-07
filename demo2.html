@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Newspaper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>College Newspaper</h1>
+        <p>Your source for campus news</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article class="featured">
+            <h2>Featured Article: Exciting Campus Events Coming Up!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel nunc eget nisl tincidunt aliquam.</p>
+            <a href="#">Read more</a>
+        </article>
+
+        <section class="news">
+            <article>
+                <h3>New Library Opening Soon</h3>
+                <p>Our new library is set to open next month. It will feature modern study spaces and extensive resources.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>Student Sports Day</h3>
+                <p>Join us for a day of fun and competition! Sports Day will be held on April 25th.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>Professor Wins Teaching Award</h3>
+                <p>Congratulations to Dr. Smith for winning the prestigious teaching award this year!</p>
+                <a href="#">Read more</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 College Newspaper | All rights reserved</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #35424a;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.featured {
+    background: #e2e2e2;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+}
+
+.news article {
+    background: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
